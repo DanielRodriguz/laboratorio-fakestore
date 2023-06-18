@@ -46,6 +46,27 @@ body {
   justify-content: space-between;
 }
 
+.details-price{
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+  grid-row-gap: 1.5em;
+  display: grid;
+}
+
+.details-price p {
+  justify-content: center;
+  align-self: center;
+  font-size: 12px;
+  font-weight: 300;
+  display: flex;
+  
+}
+
+.details p {
+  justify-content: center;
+  align-self: center;
+  display: flex;
+}
 @keyframes fade {
   from {
     opacity: 0;
